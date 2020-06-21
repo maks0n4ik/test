@@ -1,0 +1,337 @@
+$base: 32px
+body 
+  box-sizing: border-box
+  font-family: 'Roboto', sans-serif;
+  margin: 0
+  padding: 0
+
+button
+  outline: none
+
+input
+  outline: none   
+
+.bg
+  background-image: url(../img/bgimage.png)
+  padding-top: 40px
+  background-repeat: no-repeat
+  background-position-x: center
+  background-color: #2134B2
+
+.logo
+  text-transform: uppercase
+  font-weight: bold
+  color: #ffffff
+  margin: 0
+
+.container
+  max-width: 960px
+  margin: 0 auto
+
+.header
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.header-content
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  margin-bottom: 100px
+
+.get-contact
+  color: #ffffff
+  font-weight: normal
+  font-size: 18px
+  line-height: 20px
+
+.contact
+  color: #ffffff
+  font-weight: normal
+  font-size: 18px
+  line-height: 20px
+
+.header-title
+  font-weight: bold
+  font-size: 48px
+  line-height: 48px
+  color: #ffffff
+  margin: 0
+  margin-bottom: $base
+
+.main-header
+  display: flex
+  align-items: center
+  flex-direction: column
+
+.header-text
+  text-align: center
+  font-weight: normal
+  font-size: 24px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.75)
+  margin-bottom: 48px
+
+.header-button
+  border: 1px solid #FFFFFF
+  border-radius: 48px
+  background-color: transparent
+  padding: 14px $base
+  font-weight: bold
+  font-size: 20px
+  line-height: 20px
+
+.button-group
+  margin-bottom: 106px
+
+.button-read
+  margin-right: $base
+  color: #ffffff
+  transition: 1s
+  &:hover
+    color: #000000
+    background: #FFD300
+    transition: 1s
+
+.button-request
+  color: #000000
+  background: #FFD300
+  border: none
+  border: 1px solid #FFD300
+  transition: 1s
+  &:hover
+    color: #fff
+    background: transparent
+    transition: 1s
+    border: 1px solid #FFFFFF
+
+.feedback-button-request
+  color: #000000
+  background: #FFD300
+  border: none
+  transition: 1s
+  &:hover
+    color: #000
+    background: transparent
+    transition: 1s
+    border: 1px solid #000   
+
+.main-content
+  display: flex
+  justify-content: space-between
+  margin-top: 100px
+
+.main-title
+  margin: 0
+  margin-bottom: $base
+  font-weight: bold
+  font-size: $base/2
+  line-height: $base/2
+  letter-spacing: 0.02em
+  text-transform: uppercase
+  color: #86899B
+
+.main-right
+  display: flex
+  flex-direction: column
+  max-width: 436px
+
+.title
+  font-weight: bold
+  font-size: $base
+  line-height: 36px
+  color: #2F3035
+  margin-bottom: $base
+
+.main-text
+  font-weight: normal
+  font-size: 20px
+  line-height: 24px
+  color: rgba(47, 48, 53, 0.6)
+  margin-bottom: $base*2
+
+.list-text
+  font-weight: normal
+  font-size: 20px
+  line-height: 24px
+  color: rgba(47, 48, 53, 0.6)
+
+.list-title
+  font-weight: bold
+  font-size: 24px
+  line-height: 28px
+  color: #2F3035
+  margin-bottom: $base/2
+
+.main-list-title
+  display: flex
+  margin-bottom: $base/2
+  flex-direction: column
+
+.main-list
+  &__1
+    margin-bottom: 40px
+    display: flex
+    align-items: flex-start
+  &__2
+    display: flex
+
+.left-img
+  margin-bottom: 111px
+
+.icon
+  margin-right: $base
+  &__1
+    margin-right: 39px
+
+.feedback
+  max-width: 560px
+  margin: 0 auto  
+  &__avatar
+    margin-bottom: $base
+  &__title
+    font-weight: normal
+    font-size: 32px
+    line-height: 36px
+    color: #2F3035
+    margin-bottom: 24px
+    text-align: center 
+  &__author  
+    font-weight: bold
+    font-size: 16px
+    line-height: 16px
+    letter-spacing: 0.02em
+    text-transform: uppercase
+    color: #86899B
+    margin-bottom: $base*2
+  &__button
+    border: 1px solid #FFFFFF
+    border-radius: 48px
+    padding: 14px $base
+    font-weight: bold
+    font-size: 20px
+    line-height: 20px
+    margin-bottom: 100px
+
+.card-feedback
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.footer
+  background: #2F3035
+  padding-top: 100px
+  padding-bottom: 129px
+
+.footer-cards
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.card
+  display: flex
+  align-items: flex-start
+  flex-basis: 40%
+
+.card-title
+  margin-bottom: $base/2
+  font-weight: bold
+  font-size: 24px
+  line-height: 28px
+  color: #FFFFFF
+
+.card-text
+  font-weight: normal
+  font-size: 20px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.75)
+
+.main-card-title
+  display: flex
+  margin-bottom: 80px
+  flex-direction: column
+
+.under-footer
+  padding: 40px 0
+  text-align: center
+
+.under-footer-text
+  font-weight: normal
+  font-size: 18px
+  line-height: 20px
+  color: #86899B
+
+.under-footer-link
+  font-weight: normal
+  font-size: 18px
+  line-height: 20px
+  color: #86899B
+
+@media screen and ( max-width: 1010px )
+  .container
+    padding: 0 20px
+
+@media screen and ( max-width: 940px )
+  .main-right
+    justify-content: center
+    align-items: center
+  .main-content
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  .footer-cards 
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  .card
+    max-width: 436px
+  .footer
+    padding-bottom: 20px
+  
+@media screen and ( max-width: 870px )
+  .icon
+    display: none
+    &__1,
+    &__2,
+    &__3,
+    &__4
+      display: block
+      margin-right: $base    
+
+@media screen and ( max-width: 620px )
+  .get-contact
+    display: none
+  .header-content
+    justify-content: center
+    align-items: center
+  .logo
+    font-size: 40px
+  .bg
+    background-color: #fff
+
+
+@media screen and ( max-width: 550px )
+  .header-title
+    text-align: center
+  .bg
+    background-size: cover
+
+@media screen and ( max-width: 485px )
+  .bg
+    background-image: url(../img/bg2.png)
+    width: 485px
+  .footer
+    width: 485px
+  .main-content
+    margin-left: 50px
+    margin-top: 100px  
+  .feedback
+    margin-left: 90px
+    &__author
+      text-align: center
+  .under-footer
+    margin-left: 80px
+  .left-img
+    margin-bottom: 20px
