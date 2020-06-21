@@ -269,6 +269,10 @@ input {
   margin-right: 39px;
 }
 
+.icon__2, .icon__3, .icon__4 {
+  margin-right: 32px;
+}
+
 .feedback {
   max-width: 560px;
   margin: 0 auto;
